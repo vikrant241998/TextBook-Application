@@ -61,16 +61,13 @@ function App() {
 <>
 <Router>
         <Navbar title="Textbook" home="Home" about="About" mode={mode} toggleSwitch={toggleSwitch}/>
-        <Alert alert={alert} /> 
+        <Alert alert={alert} />
 
     <div className="container my-3">        
-    <Routes>
-      
+    <Routes>      
+
     <Route exact path="/about" element={<About mode={mode}/>} />
-    <Route exact path="/" element={ <Textform showalert={showalert} head="Enter The Text you Want To Analyze" mode={mode}/> }/>
-        {/* <About mode={mode}/>             */}
-    
-        {/* <Textform heading="try - Textbook app and you can take benifits for this app" mode={mode}/> */}
+    <Route exact path="/" element={ <Textform showalert={showalert} heading="try - Textbook app and you can take benifits for this app" mode={mode}/> }/>
     
     </Routes>
     </div>
