@@ -1,3 +1,5 @@
+Netlify:-   https://admirable-lollipop-3f8d76.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,4 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 �
 �
  
- :- Netlify https://admirable-lollipop-3f8d76.netlify.app/    Netlify
